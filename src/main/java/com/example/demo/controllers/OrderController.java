@@ -21,8 +21,7 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 @RequestMapping("/api/order")
 public class OrderController {
 
-	//private static final Logger log = LoggerFactory.getLogger(OrderController.class);
-	private static final Logger log = LoggerFactory.getLogger("splunk.logger");
+	private static final Logger log = LoggerFactory.getLogger(OrderController.class);
 
 	@Autowired
 	private UserRepository userRepository;

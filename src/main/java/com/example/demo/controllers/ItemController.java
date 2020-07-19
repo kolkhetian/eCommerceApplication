@@ -19,8 +19,7 @@ import com.example.demo.model.persistence.repositories.ItemRepository;
 @RequestMapping("/api/item")
 public class ItemController {
 
-	//private static final Logger log = LoggerFactory.getLogger(ItemController.class);
-	private static final Logger log = LoggerFactory.getLogger("splunk.logger");
+	private static final Logger log = LoggerFactory.getLogger(ItemController.class);
 
 	@Autowired
 	private ItemRepository itemRepository;
