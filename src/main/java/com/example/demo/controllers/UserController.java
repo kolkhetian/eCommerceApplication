@@ -24,8 +24,7 @@ import java.util.Optional;
 @RequestMapping("/api/user")
 public class UserController {
 
-	//private static final Logger log = LoggerFactory.getLogger(UserController.class);
-	private static final Logger log = LoggerFactory.getLogger("splunk.logger");
+	private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
 	@Autowired
 	private UserRepository userRepository;

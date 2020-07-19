@@ -1,5 +1,6 @@
 HELP.md
 target/
+application.log
 
 ### IntelliJ IDEA ###
 .idea

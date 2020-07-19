@@ -25,8 +25,7 @@ import com.example.demo.model.requests.ModifyCartRequest;
 @RequestMapping("/api/cart")
 public class CartController {
 
-	//private static final Logger log = LoggerFactory.getLogger(CartController.class);
-	private static final Logger log = LoggerFactory.getLogger("splunk.logger");
+	private static final Logger log = LoggerFactory.getLogger(CartController.class);
 
 	@Autowired
 	private UserRepository userRepository;
